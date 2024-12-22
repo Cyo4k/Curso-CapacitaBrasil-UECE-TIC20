@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Filtro de Produtos</title>
+</head>
+<body>
+    <form>
+        <div class="container">
+        <label for="categoria">Categoria:</label>
+        <select id="categoria" name="categoria">
+            <option value="eletronicos">Eletrônicos</option>
+            <option value="roupas">Roupas</option>
+            <option value="moveis">Móveis</option>
+            <option value="livros">Livros</option>
+            
+        </select>
+        </div>
+
+        <div class="container">
+        <label for="marca">Marca:</label>
+        <select id="marca" name="marca">
+            <option value="marca1">Marca 1</option>
+            <option value="marca2">Marca 2</option>
+            <option value="marca3">Marca 3</option>
+            
+        </select>
+        </div>
+        
+        <div>
+        <label for="preco">Faixa de Preço:</label>
+        <input type="text" id="preco_min" name="preco_min" placeholder="Mínimo">
+        
+        <input type="text" id="preco_max" name="preco_max" placeholder="Máximo">
+        </div>
+        
+        <button type="submit">Filtrar</button>
+    </form>

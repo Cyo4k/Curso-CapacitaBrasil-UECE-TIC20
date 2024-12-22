@@ -1,0 +1,35 @@
+ .carrosel {
+     position: relative;
+     width: 100%;
+     max-width: 600px;
+     margin: auto;
+     overflow: hidden;
+ }
+
+ .carrosel img {
+     width: 100%;
+     display: none;
+ }
+
+ .carrosel img.active {
+     display: block;
+ }
+
+ .arrow {
+     position: absolute;
+     top: 50%;
+     transform: translateY(-50%);
+     background-color: rgba(0, 0, 0, 0.5);
+     color: white;
+     border: none;
+     padding: 10px;
+     cursor: pointer;
+ }
+
+ .arrow.left {
+     left: 10px;
+ }
+
+ .arrow.right {
+     right: 10px;
+ }

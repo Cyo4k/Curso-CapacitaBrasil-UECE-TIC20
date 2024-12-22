@@ -1,0 +1,49 @@
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #e2bbbb;
+    color: #fff;
+  }
+  
+  
+  .logo {
+    font-size: 1.5em;
+  }
+
+  .nav {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+ 
+  .login {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+ 
+  @media (max-width: 768px) {
+    .header {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .nav {
+      flex-direction: column;
+      width: 100%;
+      text-align: center;
+      gap: 10px;
+    }
+  }
+  
